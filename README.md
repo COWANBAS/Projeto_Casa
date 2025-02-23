@@ -2,4 +2,4 @@
 
 # SOBRE O PROJETO
 
-Projeto retrata a estrutura da casa e a fundação profunda.
+Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.
