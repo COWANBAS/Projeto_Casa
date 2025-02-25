@@ -16,13 +16,13 @@ As fundações profundas utilizando um circulo em layer verde para representa-la
 
 ![image](https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc)
 
-*Cotas*
+- Cotas
 
 Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a numerica para melhor indentificação, representadas por layers vermelhos, as cotas seguiram as medidas que para fazer o projeto que no caso foram cm.
 
 ![image](https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3)
 
-*Layers*
+- Layers
 
 Formatação dos layers que utilizei no projeto para separar cada parte da fundação, as cores foram das mais fracas as mais fortes para ficar melhor de se indentificar com os plot do AutoCad.
 
