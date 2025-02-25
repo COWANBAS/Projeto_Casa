@@ -9,3 +9,9 @@ Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O pro
 As fundações profundas utilizando um circulo em layer verde para representa-las, vigas baldrame representadas por layer amarelos.
 
 ![image](https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc)
+
+*Cotas*
+
+Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a numerica para melhor indentificação, representadas por layers vermelhos, as cotas seguiram as medidas que para fazer o projeto que no caso foram cm.
+
+![image](https://github.com/user-attachments/assets/4020b7ea-0554-4fbd-97ea-cb7aa07b19cf)
