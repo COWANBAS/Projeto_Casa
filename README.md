@@ -4,6 +4,12 @@
 
 Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.
 
+# ESTRUTURA
+
+Projeto de estrutura da casa fiz conforme as medidas do desenho, utilizei a nomeclatura de medida de centimetros pois ficou visualmente melhor, adicionei as cotas somente no projeto de fundação profunda. 
+
+![image](https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b)
+
 # Fundação Profunda
 
 As fundações profundas utilizando um circulo em layer verde para representa-las, vigas baldrame representadas por layer amarelos.
