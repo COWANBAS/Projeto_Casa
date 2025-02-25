@@ -26,4 +26,4 @@ Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a nume
 
 Formatação dos layers que utilizei no projeto para separar cada parte da fundação, as cores foram das mais fracas as mais fortes para ficar melhor de se indentificar com os plot do AutoCad.
 
-![image](https://github.com/user-attachments/assets/20aa8370-7b11-4d7a-a3c4-6523e1d9c7e8)
+![image](https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36)
