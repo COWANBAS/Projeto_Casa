@@ -14,4 +14,4 @@ As fundações profundas utilizando um circulo em layer verde para representa-la
 
 Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a numerica para melhor indentificação, representadas por layers vermelhos, as cotas seguiram as medidas que para fazer o projeto que no caso foram cm.
 
-![image](https://github.com/user-attachments/assets/4020b7ea-0554-4fbd-97ea-cb7aa07b19cf)
+![image](https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3)
