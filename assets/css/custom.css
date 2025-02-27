@@ -1,6 +1,14 @@
-body {
-    background-color: #f6f8fa; /* Cor de fundo clara do GitHub */
-    color: #24292e; /* Cor do texto escura */
-    background-color: #0d1117; /* Cor de fundo do GitHub no modo escuro */
-    color: #c9d1d9; /* Cor do texto */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #161b22;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    transition: width 0.3s ease;
+}
+.sidebar:hover {
+    width: 250px;
 }
