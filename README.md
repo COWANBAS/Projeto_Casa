@@ -6,22 +6,30 @@ Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O pro
 
 Projeto de estrutura da casa fiz conforme as medidas do desenho, utilizei a nomeclatura de medida de centimetros pois ficou visualmente melhor, adicionei as cotas somente no projeto de fundação profunda. 
 
-![image](https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b" alt="Estrutura da Casa"/>
+</div>
 
 # Fundação Profunda
 
 As fundações profundas utilizando um circulo em layer verde para representa-las, vigas baldrame representadas por layer amarelos.
 
-![image](https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc" alt="Fundação Profunda"/>
+</div>
 
 - Cotas
 
 Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a numerica para melhor indentificação, representadas por layers vermelhos, as cotas seguiram as medidas que para fazer o projeto que no caso foram cm.
 
-![image](https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3" alt="Cotas"/>
+</div>
 
 - Layers
 
 Formatação dos layers que utilizei no projeto para separar cada parte da fundação, as cores foram das mais fracas as mais fortes para ficar melhor de se indentificar com os plot do AutoCad.
 
-![image](https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36" alt="Layers"/>
+</div>
