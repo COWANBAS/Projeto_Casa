@@ -7,7 +7,7 @@ Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O pro
 Projeto de estrutura da casa fiz conforme as medidas do desenho, utilizei a nomeclatura de medida de centimetros pois ficou visualmente melhor, adicionei as cotas somente no projeto de fundação profunda. 
 
 <div align="center">
-![image](https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b)
+  <img src=(https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b)
 </div>
 
 # Fundação Profunda
