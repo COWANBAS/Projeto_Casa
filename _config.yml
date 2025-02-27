@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Projeto Casa
 description: 
+custom_css: assets/css/custom.css
