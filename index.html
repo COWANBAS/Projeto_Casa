@@ -85,12 +85,13 @@
         position: fixed;
         top: 10px;
         left: 10px;
-        background-color: #161b22;
+        background-color: transparent; /* Remover o fundo */
         color: #ffffff;
         border: none;
         padding: 10px;
         cursor: pointer;
         z-index: 1000;
+        font-size: 24px; /* Aumentar o tamanho da fonte */
       }
       @media (max-width: 768px) {
         .sidebar {
@@ -103,7 +104,7 @@
     </style>
   </head>
   <body>
-    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    <button class="sidebar-toggle" onclick="toggleSidebar()">≡</button>
     <div class="sidebar">
       <h2>Menu</h2>
       <hr class="separator" />
@@ -137,4 +138,4 @@
       }
     </script>
   </body>
-</html
+</html>
