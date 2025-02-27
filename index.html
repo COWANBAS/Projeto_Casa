@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <style>
         body {
-            background-color: #121212;
-            color: #ffffff;
+            background-color: #f6f8fa;
+            color: #24292e;
             font-family: Arial, sans-serif;
         }
         header {
             text-align: center;
             padding: 20px;
-            border-bottom: 1px solid #ffffff;
+            border-bottom: 1px solid #e1e4e8;
         }
         header h1 {
             margin: 0;
@@ -24,26 +24,39 @@
             margin-top: 10px;
             font-size: 1.2em;
         }
+        .separator {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e1e4e8, transparent);
+            margin: 20px 0;
+        }
         main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #1e1e1e;
+            background-color: #ffffff;
+            border: 1px solid #e1e4e8;
             border-radius: 8px;
         }
         main h2, main h3 {
-            color: #ffab00;
+            color: #0366d6;
         }
         main p {
-            color: #d1d1d1;
+            color: #24292e;
         }
         main img {
             max-width: 100%;
             border-radius: 8px;
         }
         a {
-            color: #ffab00;
+            color: #0366d6;
             text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1em;
+            color: #586069;
         }
     </style>
 </head>
@@ -55,6 +68,7 @@
         </div>
     </header>
     <main>
+        <hr class="separator">
         <h2>SOBRE O PROJETO</h2>
         <p>Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.</p>
 
@@ -73,6 +87,10 @@
         <h3>Layers</h3>
         <p>Formatação dos layers que utilizei no projeto para separar cada parte da fundação, as cores foram das mais fracas as mais fortes para ficar melhor de se indentificar com os plot do AutoCad.</p>
         <img src="https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36" alt="Layers">
+        
+        <div class="footer">
+            Desenvolvido por Kauan Fonseca
+        </div>
     </main>
 </body>
 </html>
