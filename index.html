@@ -81,19 +81,19 @@
         margin: 10px 0;
       }
       .sidebar-toggle {
-        display: none;
+        display: none; /* Esconde o botão no computador */
         position: fixed;
-        top: 5px; /* Ajustar a posição */
+        top: 5px;
         left: 10px;
-        background-color: transparent; /* Remover o fundo */
+        background-color: transparent;
         color: #ffffff;
         border: none;
         padding: 10px;
         cursor: pointer;
         z-index: 1000;
-        font-size: 24px; /* Aumentar o tamanho da fonte */
-        outline: none; /* Remover o quadradinho azul de marcação */
-        -webkit-tap-highlight-color: transparent; /* Remover o toque visual em dispositivos móveis */
+        font-size: 24px;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
       }
       @media (max-width: 768px) {
         .sidebar {
@@ -140,7 +140,7 @@
       }
       document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = 'none';
+        sidebar.style.display = 'block'; /* Garante que a barra lateral esteja visível no computador */
       });
     </script>
   </body>
