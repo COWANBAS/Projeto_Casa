@@ -64,6 +64,7 @@
         background-color: #161b22;
         padding: 20px;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        display: none; /* Oculta a barra lateral por padrão */
       }
       .sidebar h2 {
         color: #ffffff;
@@ -136,11 +137,13 @@
     <script>
       function toggleSidebar() {
         const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
+        sidebar.style.display = sidebar.style.display === 'block' ? 'none' : 'block';
       }
       document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = 'block'; /* Garante que a barra lateral esteja visível no computador */
+        if (window.innerWidth > 768) {
+          sidebar.style.display = 'block'; /* Garante que a barra lateral esteja visível no computador */
+        }
       });
     </script>
   </body>
