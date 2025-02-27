@@ -1,4 +1,4 @@
-header {
-    text-align: left;
-    margin-left: 20px; /* Ajuste conforme necessário */
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto clara */
 }
