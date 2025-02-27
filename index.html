@@ -23,13 +23,8 @@
       .separator {
         border: none;
         height: 1px;
-        background: linear-gradient(
-          to right,
-          transparent,
-          #30363d,
-          transparent
-        );
-        margin: 10px 0; /* Diminuir o espaçamento */
+        background: linear-gradient(to right, transparent, #30363d, transparent);
+        margin: 10px 0;
       }
       main {
         max-width: 800px;
@@ -41,7 +36,7 @@
       }
       main h2,
       main h3 {
-        color: #ffffff; /* Cor dos títulos em branco */
+        color: #ffffff;
       }
       main p {
         color: #c9d1d9;
@@ -51,14 +46,14 @@
         border-radius: 8px;
       }
       a {
-        color: #58a6ff; /* Cor do link do repositório */
+        color: #58a6ff;
         text-decoration: none;
       }
       .footer {
         text-align: center;
         margin-top: 40px;
         font-size: 1em;
-        color: #8b949e; /* Cor do texto "Desenvolvido por Kauan Fonseca" */
+        color: #8b949e;
       }
       .sidebar {
         position: fixed;
@@ -76,12 +71,7 @@
       .sidebar .separator {
         border: none;
         height: 1px;
-        background: linear-gradient(
-          to right,
-          transparent,
-          #30363d,
-          transparent
-        );
+        background: linear-gradient(to right, transparent, #30363d, transparent);
         margin: 10px 0;
       }
       .sidebar a {
@@ -90,71 +80,61 @@
         text-decoration: none;
         margin: 10px 0;
       }
+      .sidebar-toggle {
+        display: none;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #161b22;
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      @media (max-width: 768px) {
+        .sidebar {
+          display: none;
+        }
+        .sidebar-toggle {
+          display: block;
+        }
+      }
     </style>
   </head>
   <body>
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
     <div class="sidebar">
       <h2>Menu</h2>
       <hr class="separator" />
       <a href="https://github.com/COWANBAS">Meu Perfil</a>
-      <!-- Adicione mais links aqui, se necessário -->
-      <a
-        href="https://github.com/COWANBAS/Projeto_Casa"
-        style="margin-top: 20px; display: block"
-        >Repositório do Projeto</a
-      >
+      <a href="https://github.com/COWANBAS/Projeto_Casa" style="margin-top: 20px; display: block">Repositório do Projeto</a>
     </div>
     <header>
       <h1>Projeto Casa</h1>
     </header>
     <main>
       <h2>SOBRE O PROJETO</h2>
-      <p>
-        Meu primeiro projeto no AutoCad que fiz durante meu estágio na
-        JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação
-        profunda dela.
-      </p>
+      <p>Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.</p>
       <h2>ESTRUTURA</h2>
-      <p>
-        Projeto de estrutura da casa fiz conforme as medidas do desenho,
-        utilizei a nomeclatura de medida de centimetros pois ficou visualmente
-        melhor, adicionei as cotas somente no projeto de estrutura.
-      </p>
-      <img
-        src="https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b"
-        alt="Estrutura da Casa"
-      />
+      <p>Projeto de estrutura da casa fiz conforme as medidas do desenho, utilizei a nomeclatura de medida de centimetros pois ficou visualmente melhor, adicionei as cotas somente no projeto de estrutura.</p>
+      <img src="https://github.com/user-attachments/assets/116bdc33-63c3-4a9d-b1f3-1e365dbe6d4b" alt="Estrutura da Casa" />
       <h2>Fundação Profunda</h2>
-      <p>
-        As fundações profundas utilizando um circulo em layer verde para
-        representa-las, vigas baldrame representadas por layer amarelos.
-      </p>
-      <img
-        src="https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc"
-        alt="Fundação Profunda"
-      />
+      <p>As fundações profundas utilizando um circulo em layer verde para representa-las, vigas baldrame representadas por layer amarelos.</p>
+      <img src="https://github.com/user-attachments/assets/2b589d72-345b-46bb-ba2d-d492761a53fc" alt="Fundação Profunda" />
       <h3>Cotas</h3>
-      <p>
-        Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica
-        e a numerica para melhor indentificação, representadas por layers
-        vermelhos, as cotas seguiram as medidas que foram feitas no desenho
-        original.
-      </p>
-      <img
-        src="https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3"
-        alt="Cotas"
-      />
+      <p>Cotas personalizadas utilizando o comando "DLI", fiz a ordem alfabetica e a numerica para melhor indentificação, representadas por layers vermelhos, as cotas seguiram as medidas que foram feitas no desenho original.</p>
+      <img src="https://github.com/user-attachments/assets/5384d803-8f2c-42d5-9109-b1d90041b8f3" alt="Cotas" />
       <h3>Layers</h3>
-      <p>
-        Formatação dos layers que utilizei no projeto para separar cada parte da
-        fundação, as cores foram das mais fracas as mais fortes para ficar
-        melhor de se indentificar com os plot do projeto.
-      </p>
-      <img
-        src="https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36"
-        alt="Layers"
-      />
+      <p>Formatação dos layers que utilizei no projeto para separar cada parte da fundação, as cores foram das mais fracas as mais fortes para ficar melhor de se indentificar com os plot do projeto.</p>
+      <img src="https://github.com/user-attachments/assets/31843c73-e15e-4f96-a985-3e0ca75e6d36" alt="Layers" />
       <div class="footer">Desenvolvido por Kauan Fonseca</div>
     </main>
+    <script>
+      function toggleSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
+      }
+    </script>
   </body>
-</html>
+</html
