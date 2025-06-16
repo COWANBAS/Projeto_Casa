@@ -1,6 +1,6 @@
 # SOBRE O PROJETO
 
-Meu primeiro projeto no AutoCad que fiz durante meu estágio na JCGontijo. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.
+Meu primeiro projeto no AutoCad que fiz durante meu estágio. O projeto retrata a parte estrutural de uma casa e a fundação profunda dela.
 
 # ESTRUTURA
 
